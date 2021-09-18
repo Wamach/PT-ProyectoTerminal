@@ -10,6 +10,15 @@
     <h1> FORM COTIZAR ELECTRONICA </h1>
     <?php include("../components/barraNavegacion.php"); ?>
 
+    <form action="#">
+        <input type="text" placeholder="Ingresa tu Razon Social">
+        <input type="text" placeholder="Telefono (opcional)">
+        <input type="text" placeholder="Correo electronico">
+        <input type="textarea" placeholder="Mensaje. Describe que tipo de tarjeta electronica necesitas">
+
+
+        <button type="submit"> Enviar cotizacion </button>
+    </form>
     <?php include("../components/footer.php"); ?>
 </body>
 </html>

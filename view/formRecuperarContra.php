@@ -14,7 +14,7 @@
     <form action="#">
         <label for=""> Nombre de Empleado </label>
         <input type="text" placeholder="Ingresa tu nombre">  
-
+        <input type="text" placeholder="Ingresa tu correo electronico">  
         <button type="submit"> Recuperar </button>
     </form>
     <?php include("../components/footer.php"); ?>

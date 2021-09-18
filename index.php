@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1> Inicio  </h1>
+    <h1> Inicio </h1>
     <!---Los puntos significa que salga carpeta, se meta a componentes y traiga el archivo-->
     <?php include("./components/navbarInicial.php"); ?>
 

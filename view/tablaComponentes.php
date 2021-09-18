@@ -10,5 +10,8 @@
     <h1> Tabla Componentes </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+
+    <a href="formAgregarComponente.php">Agregar</a>
+    <a href="formModificarComponente.php">Modificar</a>
 </body>
 </html>
