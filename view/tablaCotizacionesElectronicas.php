@@ -10,5 +10,8 @@
     <h1> Cotizaciones servicios electronicos </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+
+    <a href="formAgregarCotizacionesElectronicas.php">Agregar</a>
+    <a href="formModificarCotizacionesElectronicas.php">Modificar</a>
 </body>
 </html>

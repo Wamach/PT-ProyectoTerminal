@@ -10,5 +10,7 @@
     <h1> Tabla orden de trabajo  </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+    <a href="formAgregarOrdenTrabajo.php">Agregar</a>
+    <a href="formModificarOrdenTrabajo.php">Modificar</a>
 </body>
 </html>

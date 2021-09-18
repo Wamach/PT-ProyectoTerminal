@@ -10,5 +10,7 @@
     <h1> Tabla. Cotizaciones Mantenimiento </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+    <a href="formAgregarCotizacionesMantenimiento.php">Agregar</a>
+    <a href="formModificarCotizacionesMantenimiento.php">Modificar</a>
 </body>
 </html>

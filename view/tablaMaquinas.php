@@ -10,5 +10,7 @@
     <h1> Tabla. Maquinas </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+    <a href="formAgregarMaquina.php">Agregar</a>
+    <a href="formModificarMaquina.php">Modificar</a>
 </body>
 </html>

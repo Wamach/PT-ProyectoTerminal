@@ -10,5 +10,7 @@
     <h1> Tabla. Reporte Servicio </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+    <a href="formAgregarReporteServicio.php">Agregar</a>
+    <a href="formModificarReporteServicio.php">Modificar</a>
 </body>
 </html>

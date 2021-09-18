@@ -10,5 +10,7 @@
     <h1> Tabla. Refacciones </h1>
 
     <?php include("../components/menuAdministracion.php"); ?>
+    <a href="formAgregarRefacciones.php">Agregar</a>
+    <a href="formModificarRefacciones.php">Modificar</a>
 </body>
 </html>
