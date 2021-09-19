@@ -5,27 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <link rel="stylesheet" href="../styles/estilosNav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/loginstyles.css">
+    <title> Login </title>
 </head>
 
 <body>
-    <h1> Login </h1>
-    <?php include("../components/barraNavegacion.php"); ?>
+    <header>
+        <?php include("../components/barraNavegacion.php"); ?>
+    </header>
 
-    <section>
-        <form action="#">
-            <label for=""> Tipo empleado</label>
-            <select name="tipoUsuario" id="tipoUsuario">
-                <option value="empleado">Empleado </option>
-                <option value="gerente">Gerente </option>
-            </select>
-            <input type="text" placeholder="Nombre de usuario">
-            <input type="password" placeholder="Contraseña">
-            <button type="submit"> INICIAR SESION </button>
+
+
+    <div class="login-box">
+        <h1> SIECYMELSA Empleados </h1>
+        <form action="iniciarSesion.php">
+            <label for="username">Usuario</label>
+            <input type="text" placeholder="Ingresa usuario">
+
+
+            <label for="pasword">Contraseña</label>
+            <input type="password" placeholder="Ingresa contraseña">
+
+            <input type="submit" value="Entrar">
+
+            <a href="formRecuperarContra.php"> ¿Olvidaste tu contraseña? </a>
         </form>
-    </section>
-    <a href="formRecuperarContra.php"> Recuperar contra </a>
-    <?php include("../components/footer.php"); ?>
+    </div>
+
+
 </body>
 
 </html>

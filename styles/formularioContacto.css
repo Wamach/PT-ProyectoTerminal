@@ -1,0 +1,75 @@
+.formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.formulario button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color:#3FA535;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.formulario button:hover{
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    background-image: linear-gradient(to right, #3FA535 , #475F51);
+    background-size: 200%;
+    border-radius: 90px;
+    color:#fff;
+}
+
+input[type=text] , input[type=email]{
+    border: none;
+    border: 3px solid #3FA535;
+    padding: 10px;
+    margin: 8px;
+  }
+
+
+
+/* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
+@media (max-width:700px) {
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 400px;
+        
+    }
+}
+
+@media(min-width:701px) and (max-width:1023px){
+    .contenedor-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 400px;
+    }
+    .img-maps, .formulario{
+        width: 100%;
+    }
+
+}
+
+
+/* Cuando la pantalla mida mas de 1024 px, se mostrata de esta manera */
+@media (min-width:1024px) { 
+    .contenedor-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        height: 600px;
+    }
+
+    .img-maps, .formulario{
+        width: 50%;
+    }
+
+}
