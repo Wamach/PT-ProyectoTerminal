@@ -1,34 +1,40 @@
-.formulario {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-}
-
-.formulario button{
-    border: none;
-    outline: none;
-    height: 40px;
+.form-titulo{
     background: black;
-    color:#3FA535;
-    font-size: 18px;
-    border-radius: 20px;
+    color: #3FA535;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid#3FA535;
+}
+.formulario{
+    background:white;
+    color: #3FA535;
 }
 
-.formulario button:hover{
-    cursor: pointer;
-    transition: all 0.5s ease 0s;
-    background-image: linear-gradient(to right, #3FA535 , #475F51);
-    background-size: 200%;
-    border-radius: 90px;
-    color:#fff;
+.input-textarea{
+    resize: none;
 }
 
-input[type=text] , input[type=email]{
-    border: none;
-    border: 3px solid #3FA535;
-    padding: 10px;
-    margin: 8px;
-  }
+.input-texto{
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+}
 
+.input-textarea {
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+}
 
 
 /* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
@@ -38,9 +44,55 @@ input[type=text] , input[type=email]{
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        height: 400px;
-        
+        height: 800px;
     }
+
+    .input-texto{
+        width: 95%;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 3px;
+        border: 1px solid #3FA535;
+    }
+    
+    .input-textarea {
+        width: 95%;
+        margin-bottom: 15px;
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 3px;
+        border: 1px solid #3FA535;
+    }
+
+    .formularioServicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 600px;
+    }
+
+    .btn-formulario{
+        background: white;
+        color: #3FA535;
+        width: 100%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 1px solid #3FA535;
+        font-size: 15px;
+    }
+    
+    .btn-formulario:hover{
+        background:black;
+        color: #3FA535;
+        width: 100%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 2px solid #3FA535;
+        font-size: 15px;
+    }
+
 }
 
 @media(min-width:701px) and (max-width:1023px){
@@ -49,12 +101,37 @@ input[type=text] , input[type=email]{
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        height: 400px;
+        height: 600px;
     }
     .img-maps, .formulario{
         width: 100%;
     }
 
+    .formularioServicios{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 500px;
+    }
+    .btn-formulario{
+        background: white;
+        color: #3FA535;
+        width: 50%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 1px solid #3FA535;
+        font-size: 15px;
+    }
+    
+    .btn-formulario:hover{
+        background:black;
+        color: #3FA535;
+        width: 50%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 2px solid #3FA535;
+        font-size: 15px;
+    }
 }
 
 
@@ -72,4 +149,31 @@ input[type=text] , input[type=email]{
         width: 50%;
     }
 
+    .formularioServicios{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        height: 600px;
+    }
+    
+    .btn-formulario{
+        background: white;
+        color: #3FA535;
+        width: 50%;
+        padding: 15px;
+        margin: auto;
+        border-radius: 3px;
+        border: 1px solid #3FA535;
+        font-size: 15px;
+    }
+    
+    .btn-formulario:hover{
+        background:black;
+        color: #3FA535;
+        width: 50%;
+        padding: 15px;
+        border-radius: 3px;
+        border: 2px solid #3FA535;
+        font-size: 15px;
+    }
 }

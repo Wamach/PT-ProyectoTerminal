@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/estilosNav.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/seccion.css">
+    <link rel="stylesheet" href="styles/formularioContacto.css">
 
 </head>
 
@@ -55,7 +56,7 @@
                 <h1> Mantenimiento </h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt est voluptatum voluptate ut
                     accusamus. </p>
-                <a href="view/servicios.php" class="tipoBoton">Conoce mas </a>
+                <a href="view/servicios.php" class="btn-formulario">Conoce mas </a>
             </section>
 
             <section class="img_electronica">
@@ -66,7 +67,7 @@
                 <h1> Electronica </h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deserunt est voluptatum voluptate ut
                     accusamus. </p>
-                <a href="view/servicios.php" class="tipoBoton">Conoce mas </a>
+                <a href="view/servicios.php" class="btn-formulario">Conoce mas </a>
             </section>
 
         </div>

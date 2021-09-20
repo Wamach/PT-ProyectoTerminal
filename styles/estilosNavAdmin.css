@@ -1,0 +1,35 @@
+@media (min-width: 700px) {
+
+}
+
+
+
+    
+@media (max-width: 701px) {
+    nav {
+        display:flex;
+        flex-direction: column;
+        max-width: 40%;
+        height: 600px;
+        background: black;
+        border-radius: 20px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        margin-bottom: 5px;
+        
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        padding: 10px 20px;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #3FA535;
+        font-size: 150%;
+        
+    }
+}
