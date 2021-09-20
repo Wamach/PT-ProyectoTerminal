@@ -19,26 +19,17 @@
             <h1> Imagen de Google maps </h1>
         </section>
 
-
         <section class="formulario">
-            <h1> Formulario de contacto </h1>
             <form action="contacto.php">
-
-                <input type="text" placeholder="Ingresa tu nombre">
-                <input type="text" placeholder="Ingresa tu apellido">
-                <input type="email" placeholder="Correo Electronico">
-
-
-
-                <input type="text" placeholder="Mensaje">
-
-                <button type="submit"> Enviar Mensaje </button>
+                <h1 class="form-titulo"> Formulario de contacto </h1>
+                <input type="text" class="input-texto" placeholder="Ingresa tu nombre">
+                <input type="text" class="input-texto" placeholder="Ingresa tu apellido">
+                <input type="email" class="input-texto" placeholder="Correo Electronico">
+               <textarea name="descripcion" id="descripcion" placeholder="Ingresa el mensaje aqui" class="input-textarea">  </textarea>
+                <button type="submit" class="btn-formulario"> Enviar Mensaje </button>
             </form>
         </section>
     </div>
-
-
-
 
     <?php include("../components/footer.php"); ?>
 </body>

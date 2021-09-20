@@ -14,15 +14,16 @@
 <body>
 
     <?php include("../components/barraNavegacion.php"); ?>
-    <h1> FORM Consulta Servicio </h1>
-    <section>
-        <h1> Consulta el estaus de tu pedido </h1>
-        <h5> Introduce tu numero de servicio y razon social</h5>
-        <form action="#">
-            <input type="text" placeholder="Numero de servicio">
-            <input type="text" placeholder="Razon social">
-            <button type="submit"> CONSULTAR </button>
-        </form>
+    <section class="formularioServicios">
+        <form action="cotizarServicio.php">
+            <h1 class="form-titulo"> Consultar Servicio </h1>
+            <h1> Consulta el estaus de tu pedido </h1>
+            <h5> Introduce tu numero de servicio y razon social</h5>
+            <form action="#">
+                <input type="text" class="input-texto" placeholder="Numero de servicio">
+                <input type="text" class="input-texto" placeholder="Razon social">
+                <button type="submit" class="btn-formulario"> CONSULTAR </button>
+            </form>
     </section>
 
     <?php include("../components/footer.php"); ?>

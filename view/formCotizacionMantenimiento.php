@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/estilosNav.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/seccion.css">
+    <link rel="stylesheet" href="../styles/formularioContacto.css">
     <title>Contacto</title>
 </head>
+
 <body>
-    <h1> FORM Cotizacion Mantenimiento </h1>
     <?php include("../components/barraNavegacion.php"); ?>
 
-    <form action="#">
-        <input type="text" placeholder="Ingresa tu Razon Social">
-        <input type="text" placeholder="Telefono">
-        <input type="text" placeholder="Correo electronico">
-        <input type="textarea" placeholder="Mensaje. Describe que mantenimiento necesitas">
+    <section class="formularioServicios">
+        <form action="cotizarElectronica.php">
+            <h1 class="form-titulo"> Cotizacion Mantenimiento </h1>
+            <input type="text" class="input-texto" placeholder="Ingresa tu Razon Social">
+            <input type="text" class="input-texto" placeholder="Telefono (opcional)">
+            <input type="text" class="input-texto" placeholder="Correo electronico">
+            <textarea name="descripcion" id="descripcion" placeholder="Describe la tarjeta electronica"
+                class="input-textarea">  </textarea>
 
 
-        <button type="submit"> Enviar cotizacion </button>
-    </form>
+            <button type="submit" class="btn-formulario"> Enviar cotizacion </button>
+        </form>
+    </section>
 
 
     <?php include("../components/footer.php"); ?>
 </body>
+
 </html>
