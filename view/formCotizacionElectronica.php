@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,19 +11,21 @@
     <link rel="stylesheet" href="../styles/formularioContacto.css">
     <title>Contacto</title>
 </head>
+
 <body>
-    <h1> FORM COTIZAR ELECTRONICA </h1>
     <?php include("../components/barraNavegacion.php"); ?>
-
-    <form action="#">
-        <input type="text" placeholder="Ingresa tu Razon Social">
-        <input type="text" placeholder="Telefono (opcional)">
-        <input type="text" placeholder="Correo electronico">
-        <input type="textarea" placeholder="Mensaje. Describe que tipo de tarjeta electronica necesitas">
-
-
-        <button type="submit"> Enviar cotizacion </button>
-    </form>
+    <section class="formularioServicios">
+        <form action="cotizarMantenimiento.php">
+            <h1 class="form-titulo"> Cotizacion Electronica </h1>
+            <input type="text" class="input-texto" placeholder="Ingresa tu Razon Social">
+            <input type="text" class="input-texto" placeholder="Telefono (opcional)">
+            <input type="text" class="input-texto" placeholder="Correo electronico">
+            <textarea name="descripcion" id="descripcion" placeholder="Describe la tarjeta electronica"
+                class="input-textarea">  </textarea>
+            <button type="submit" class="btn-formulario"> Enviar cotizacion </button>
+        </form>
+    </section>
     <?php include("../components/footer.php"); ?>
 </body>
+
 </html>

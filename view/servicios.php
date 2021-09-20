@@ -8,7 +8,9 @@
     <title>Servicios</title>
     <link rel="stylesheet" href="../styles/estilosNav.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/formularioContacto.css">
     <link rel="stylesheet" href="../styles/seccion.css">
+
 </head>
 
 <body>
@@ -19,19 +21,19 @@
             <h1> Cotizar Electronica </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
                 temporibus.</p>
-            <a href="formCotizacionElectronica.php"> Cotizar </a>
+            <a href="formCotizacionElectronica.php" class="btn-formulario"> Cotizar </a>
         </section>
         <section class="seccion_informacion_mantenimiento">
             <h1> Cotizar Mantenimiento </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
                 temporibus.</p>
-            <a href="formCotizacionMantenimiento.php"> Cotizar </a>
+            <a href="formCotizacionMantenimiento.php" class="btn-formulario"> Cotizar </a>
         </section>
         <section class="seccion_informacion_consultarServicio">
             <h1> Consultar servicio </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
                 temporibus.</p>
-            <a href="formConsultaServicio.php"> Consultar </a>
+            <a href="formConsultaServicio.php" class="btn-formulario"> Consultar </a>
         </section>
     </div>
 

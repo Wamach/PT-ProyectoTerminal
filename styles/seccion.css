@@ -1,23 +1,3 @@
-    a{
-        border: none;
-        outline: none;
-        height: 40px;
-        background: black;
-        color:#3FA535;
-        font-size: 18px;
-        border-radius: 20px;
-        text-decoration: none;
-        padding: 5px;
-    }
-
-    a:hover{
-        cursor: pointer;
-        transition: all 0.5s ease 0s;
-        background-image: linear-gradient(to right, #3FA535 , #475F51);
-        background-size: 200%;
-        border-radius: 90px;
-        color:#fff;
-    }
 /* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
 @media (max-width:700px) {
     .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica {
@@ -90,6 +70,5 @@
 
     .seccion_Servicios_imagen{width: 50%;}
     .seccion_Servicios_texto{width: 50%;}
-
 }
 
