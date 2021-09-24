@@ -17,16 +17,14 @@
     </header>
 
 
-
     <div class="login-box">
         <h1> SIECYMELSA Empleados </h1>
-        <form action="iniciarSesion.php">
-            <label for="username">Usuario</label>
-            <input type="text" placeholder="Ingresa usuario">
-
+        <form action="iniciarSesion.php" method="POST">
+            <label for="usuario">Usuario</label>
+            <input type="text" placeholder="Ingresa usuario" id="usuario" name="usuario">
 
             <label for="pasword">Contraseña</label>
-            <input type="password" placeholder="Ingresa contraseña">
+            <input type="password" placeholder="Ingresa contraseña" id="password" name="password">
 
             <input type="submit" value="Entrar">
 

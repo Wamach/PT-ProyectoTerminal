@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="../styles/estilosNav.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/formularioContacto.css">
-    <title>Recuperacion contra</title>
+    <title>Recuperacion contrasena</title>
 </head>
 
 <body>
-    <h1> Recuperacion contra </h1>
     <?php include("../components/barraNavegacion.php"); ?>
 
-
-    <div class="contenedor-contacto">
-        <form action="#">
-            <label for=""> Nombre de Empleado </label>
-            <input type="text" placeholder="Ingresa tu nombre">
-            <input type="text" placeholder="Ingresa tu correo electronico">
-            <button type="submit"> Recuperar </button>
-        </form>
+    <div class="formulario">
+        <section class="contenedor-contacto">
+            <form action="#">
+                <label for="nombreEmpleado"> Nombre de Empleado </label>
+                <input type="text" class="input-texto" placeholder="Ingresa tu nombre">
+                <input type="text" class="input-texto" placeholder="Ingresa tu correo electronico">
+                <button type="submit" class="btn-formulario"> Recuperar </button>
+            </form>
+        </section>
     </div>
 
     <?php include("../components/footer.php"); ?>

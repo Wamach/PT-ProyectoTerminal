@@ -1,16 +1,15 @@
 /* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
 @media (max-width:700px) {
-    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica {
+    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica, .seccionHistoria {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
-
 }
 
 @media(min-width:701px) and (max-width:1023px){
-    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica {
+    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica, .seccionHistoria {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -37,12 +36,15 @@
 
     .seccion_Servicios_imagen{width: 50%;}
     .seccion_Servicios_texto{width: 50%;}
+
+    .historia{width:50%;}
+    .excelencia{width:50%;}
 }
 
 
 /* Cuando la pantalla mida mas de 1024 px, se mostrata de esta manera */
 @media (min-width:1024px) {
-    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica {
+    .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica, .seccionHistoria {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -59,7 +61,7 @@
     .inf_electronica{width: 25%;}
 
     .textoContactanos{width: 25%}
-    .icono1_contactanos{ width: 25%;margin-top: 10px;}
+    .icono1_contactanos{ width: 25%;}
     .icono2_contactanos{ width: 25%;}
     .icono3_contactanos{ width: 25%; margin-top: 10px;}
 
@@ -70,5 +72,8 @@
 
     .seccion_Servicios_imagen{width: 50%;}
     .seccion_Servicios_texto{width: 50%;}
+
+    .historia{width:50%;}
+    .excelencia{width:50%;}
 }
 
