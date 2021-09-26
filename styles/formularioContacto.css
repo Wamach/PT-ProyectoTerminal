@@ -36,6 +36,27 @@
     border: 1px solid #3FA535;
 }
 
+.btn-formulario{
+    background: white;
+    color: #3FA535;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+    font-size: 15px;
+}
+
+.btn-formulario:hover{
+    background:black;
+    color: #3FA535;
+    width: 50%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #3FA535;
+    font-size: 15px;
+}
+
 
 /* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
 @media (max-width:700px) {
@@ -44,7 +65,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        height: 800px;
+        height: 600px;
     }
 
     .input-texto{
@@ -73,25 +94,6 @@
         height: 600px;
     }
 
-    .btn-formulario{
-        background: white;
-        color: #3FA535;
-        width: 100%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 1px solid #3FA535;
-        font-size: 15px;
-    }
-    
-    .btn-formulario:hover{
-        background:black;
-        color: #3FA535;
-        width: 100%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 2px solid #3FA535;
-        font-size: 15px;
-    }
 
 }
 
@@ -113,25 +115,7 @@
         justify-content: center;
         height: 500px;
     }
-    .btn-formulario{
-        background: white;
-        color: #3FA535;
-        width: 50%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 1px solid #3FA535;
-        font-size: 15px;
-    }
-    
-    .btn-formulario:hover{
-        background:black;
-        color: #3FA535;
-        width: 50%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 2px solid #3FA535;
-        font-size: 15px;
-    }
+
 }
 
 
@@ -156,24 +140,5 @@
         height: 600px;
     }
     
-    .btn-formulario{
-        background: white;
-        color: #3FA535;
-        width: 50%;
-        padding: 15px;
-        margin: auto;
-        border-radius: 3px;
-        border: 1px solid #3FA535;
-        font-size: 15px;
-    }
-    
-    .btn-formulario:hover{
-        background:black;
-        color: #3FA535;
-        width: 50%;
-        padding: 15px;
-        border-radius: 3px;
-        border: 2px solid #3FA535;
-        font-size: 15px;
-    }
+
 }

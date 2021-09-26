@@ -13,26 +13,21 @@
 
 <body>
     <?php include("../components/barraNavegacion.php"); ?>
+
     <section class="formularioServicios">
-        <form action="cotizarMantenimiento.php">
-            <h1 class="form-titulo"> Cotizacion Electronica </h1>
+        <form action="agendarAutomatizacion.php">
+            <h1 class="form-titulo"> Agendar Cita Automatizacion y Control </h1>
             <input type="text" class="input-texto" placeholder="Ingresa tu Razon Social">
             <input type="text" class="input-texto" placeholder="Telefono (opcional)">
             <input type="text" class="input-texto" placeholder="Correo electronico">
-            <select id="material" class="input-texto">
-                <option value="volvo">Material 1</option>
-                <option value="saab">Material 2</option>
-                <option value="opel">Material 3</option>
-            </select>
-            <input type="text" class="input-texto" placeholder="Numero de Piezas">
-            <input type="text" class="input-texto" placeholder="Dimensiones">
-            <input type="file" class="input-texto" accept=".gbr">
-
+            <textarea name="descripcion" id="descripcion" placeholder="Describe algun detalle sobre la cita"
+                class="input-textarea"></textarea>
             <button type="submit" class="btn-formulario"> Enviar cotizacion </button>
         </form>
     </section>
 
 
+    <?php include("../components/footer.php"); ?>
 </body>
 
 </html>

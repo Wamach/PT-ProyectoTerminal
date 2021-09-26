@@ -19,3 +19,43 @@ th {
     background-color: black;
     color: #3FA535;;
 }
+
+.seccion_tabla{
+    overflow-x:auto;
+}
+
+
+.btn-tabla-modificar{
+    background: #283583;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+    font-size: 15px;
+}
+
+
+.btn-tabla-agregar{
+    background: #3FA535;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+    font-size: 15px;
+}
+
+.seccion_funcionesExtra{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+

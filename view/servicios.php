@@ -8,74 +8,68 @@
     <title>Servicios</title>
     <link rel="stylesheet" href="../styles/estilosNav.css">
     <link rel="stylesheet" href="../styles/footer.css">
-    <link rel="stylesheet" href="../styles/formularioContacto.css">
-    <link rel="stylesheet" href="../styles/seccion.css">
+    <link rel="stylesheet" href="../styles/estilosServicios.css">
 
 </head>
 
 <body>
     <?php include("../components/barraNavegacion.php"); ?>
 
-    <div class="seccion_Servicios">
-        <section class="seccion_informacion_electronica">
-            <h1> Cotizar Electronica </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
-                temporibus.</p>
-            <a href="formCotizacionElectronica.php" class="btn-formulario"> Cotizar </a>
+    <div class="seccion_servicio_mantenimiento">
+        <section class="seccion_texto">
+            <h1> Servicio de Mantenimiento </h1>
+            <p> Realizamos Mantenimientos Preventivos y Correctivos a maquinaria Industrial </p>
         </section>
-        <section class="seccion_informacion_mantenimiento">
-            <h1> Cotizar Mantenimiento </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
-                temporibus.</p>
-            <a href="formCotizacionMantenimiento.php" class="btn-formulario"> Cotizar </a>
+        <section class="seccion_imagen">
+            <img src="../img/mantenimientoInicio.png" alt="hombre trabajando" height="250px">
         </section>
-        <section class="seccion_informacion_consultarServicio">
-            <h1> Consultar servicio </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus excepturi aperiam, facere esse ea
-                temporibus.</p>
-            <a href="formConsultaServicio.php" class="btn-formulario"> Consultar </a>
+        <section class="seccion_boton">
+            <h4> Agenda tu cita </h4>
+            <a href="../view/formCotizacionMantenimiento.php" class="btn-formulario"> Agendar </a>
         </section>
     </div>
 
-    <div class="seccion_Servicios_Mantenimiento">
-        <section class="seccion_Servicios_imagen">
-            <h1> Imagen </h1>
+    <div class="seccion_servicio_electronica">
+        <section class="seccion_texto">
+            <h1> Servicio de Electronica </h1>
+            <p>Ofrecemos fabricación de circuitos impresos de 1 o 2 caras, Diseño de su Proyecto, Prototipos, Ensamble de tarjetas electrónicas. </p>
         </section>
-        <section class="seccion_Servicios_texto">
-            <h1> Mantenimiento </h1>
-            <p> En SIECYMELSA ofrecemos a nuestros clientes un
-                programa de mantenimiento preventivo que
-                consiste en realizar una asesoría técnica según las
-                necesidades del negocio. Nos adaptamos al cliente
-                y le ofrecemos una solución a medida.
-                Si necesitas poner en marcha un plan de
-                mantenimiento o llevarlo a cabo en tus equipos,
-                somos expertos generando soluciones y ahorrando
-                costos. Contáctanos sin compromiso y te
-                contaremos todo lo que podemos hacer por ti. </p>
+        <section class="seccion_imagen">
+            <img src="../img/electronicaInicio.png" alt="tarjeta Electronica" height="250px">
+        </section>
+        <section class="seccion_boton">
+            <h4> Cotiza tu diseño </h4>
+            <a href="../view/formCotizacionElectronica.php" class="btn-formulario"> Cotizar </a>
         </section>
     </div>
 
-    <div class="seccion_Servicios_Electronica">
-        <section class="seccion_Servicios_texto">
-            <h1> Electronica </h1>
-            <p> En SIECYMELSA ofrecemos a nuestros clientes un
-                programa de mantenimiento preventivo que
-                consiste en realizar una asesoría técnica según las
-                necesidades del negocio. Nos adaptamos al cliente
-                y le ofrecemos una solución a medida.
-                Si necesitas poner en marcha un plan de
-                mantenimiento o llevarlo a cabo en tus equipos,
-                somos expertos generando soluciones y ahorrando
-                costos. Contáctanos sin compromiso y te
-                contaremos todo lo que podemos hacer por ti. </p>
+    <div class="seccion_servicio_automatizacion">
+        <section class="seccion_texto">
+            <h1> Servicio de Automatizacion </h1>
+            <p>  Realizamos Actualizaciones de su equipo de control  en tecnologías de Allen Bradley y Siemens principalmente </p>
         </section>
-
-        <section class="seccion_Servicios_imagen">
-            <h1> Imagen </h1>
+        <section class="seccion_imagen">
+            <img src="" alt="imagen_control" height="250px">
         </section>
-
+        <section class="seccion_boton">
+            <h4> Agenda tu cita </h4>
+            <a href="../view/formCotizacionAutomatizacion.php" class="btn-formulario"> Agendar </a>
+        </section>
     </div>
+
+    <div class="seccion_servicio_consultarServicio">
+        <section class="seccion_texto_consultar">
+            <h1> Consulta tu servicio </h1>
+            <p> Consulta el estado en el que se encuentra tu servicio, asi como el estado de las visitas agendadas</p>
+        </section>
+        <section class="seccion_boton_consultar">
+            <h4> Consulta tu servicio </h4>
+            <a href="../view/formConsultaServicio.php" class="btn-formulario"> Consultar </a>
+        </section>
+    </div>
+
+
+
     <?php include("../components/footer.php"); ?>
 
 </body>

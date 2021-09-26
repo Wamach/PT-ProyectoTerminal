@@ -20,11 +20,11 @@
             <input type="text" class="input-texto" placeholder="Ingresa tu Razon Social">
             <input type="text" class="input-texto" placeholder="Telefono (opcional)">
             <input type="text" class="input-texto" placeholder="Correo electronico">
-            <textarea name="descripcion" id="descripcion" placeholder="Describe la tarjeta electronica"
-                class="input-textarea">  </textarea>
+            <textarea name="descripcion" id="descripcion" placeholder="Describe algun detalle sobre la cita"
+                class="input-textarea"></textarea>
 
 
-            <button type="submit" class="btn-formulario"> Enviar cotizacion </button>
+            <button type="submit" class="btn-formulario"> Agendar Cita </button>
         </form>
     </section>
 
