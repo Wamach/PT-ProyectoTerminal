@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/estilosTabla.css">
     <link rel="stylesheet" href="../styles/estilosNav.css">
-    <title> Usuarios </title>
+    <title> Clientes </title>
 </head>
 <body>
     <?php include("../components/menuAdministracion.php"); ?>
+
     <div style="seccion_tabla">
-    <h1> Tabla de Usuarios </h1>
+    <h1> Tabla de Clientes </h1>
         <table>
             <thead>
                 <tr>
-                    <th> Nombre de Usuario </th>
-                    <th> Contraseña </th>
-                    <th> Empleado con el que se relaciona </th>
+                    <th> Numero de cliente </th>
+                    <th> Razon Social </th>
+                    <th> Telefono </th>
+                    <th> Correo Electronico </th>
+                    <th> Comentario </th>
                     <th> Modificar </th>
-                    <th> Enviar correo</th>
+                    <th> Generar reporte</th>
+                    <th> Enviar correo </th>
                 </tr>
             </thead>
 
@@ -28,7 +32,10 @@
                     <td> <?php echo "dato 1" ?> </td>
                     <td> <?php echo "dato 2" ?> </td>
                     <td> <?php echo "dato 3" ?> </td>
-                    <td> <a href="formModificarUsuario.php" class="btn-tabla-modificar">Modificar</a> </td>
+                    <td> <?php echo "dato 1" ?> </td>
+                    <td> <?php echo "dato 2" ?> </td>
+                    <td> <?php echo "dato 3" ?> </td>
+                    <td> <a href="formModificarCliente.php" class="btn-tabla-modificar">Modificar</a> </td>
                     <td> <a href="" class="btn-tabla-modificar">Enviar</a> </td>
                 </tr>
             </tbody>
@@ -36,8 +43,11 @@
     </div>
     <div class="seccion_funcionesExtra">
         <section>
-            <a href="formAgregarUsuario.php" class="btn-tabla-agregar">Agregar</a>
+            <a href="formAgregarCliente.php" class="btn-tabla-agregar">Agregar</a>
+            <a href="" class="btn-tabla-agregar" > Generar Reporte Global</a>
         </section>
     </div> 
+
+
 </body>
 </html>

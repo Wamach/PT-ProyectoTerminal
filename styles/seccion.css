@@ -1,3 +1,28 @@
+.btn-formulario{
+    background: white;
+    color: #3FA535;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-formulario:hover{
+    background:black;
+    color: #3FA535;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 2px solid #3FA535;
+    font-size: 15px;
+}
+
 /* Cuando la pantalla mida menos de 700 px, se mostrata de esta manera */
 @media (max-width:700px) {
     .seccionesInicio, .informacionServicios, .seccionesInicio, .seccionContactanosInicio ,.seccion_Servicios, .seccion_Servicios_Mantenimiento, .seccion_Servicios_Electronica, .seccionHistoria {
@@ -20,10 +45,8 @@
     .bienvenida3{ width: 50%;}
     .bienvenida4{ width: 50%;}
 
-    .img_mantenimiento{width: 50%;}
-    .inf_mantenimiento{width: 50%;}
-    .img_electronica{width: 50%;}
-    .inf_electronica{width: 50%;}
+    .texto_servicio {width: 50%; align-self: center;}
+    .boton_servicio {width: 50%; align-self: center;}
 
     .textoContactanos{width: 100%;}
     .icono1_contactanos{ width: 50%;}
@@ -55,16 +78,13 @@
     .bienvenida3{ width: 50%;}
     .bienvenida4{ width: 100%;}
 
-    .img_mantenimiento{width: 25%;}
-    .inf_mantenimiento{width: 25%;}
-    .img_electronica{width: 25%;}
-    .inf_electronica{width: 25%;}
-
     .textoContactanos{width: 25%}
     .icono1_contactanos{ width: 25%;}
     .icono2_contactanos{ width: 25%;}
     .icono3_contactanos{ width: 25%; margin-top: 10px;}
 
+    .texto_servicio {width: 100%; align-self: center;}
+    .boton_servicio {width: 100%; align-self: center;}
 
     .seccion_informacion_electronica{width: 33%;}
     .seccion_informacion_mantenimiento{width: 33%;}

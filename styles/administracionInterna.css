@@ -1,0 +1,55 @@
+.btn-formulario{
+    background: white;
+    color: #3FA535;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 1px solid #3FA535;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-formulario:hover{
+    background:black;
+    color: #3FA535;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 3px;
+    border: 2px solid #3FA535;
+    font-size: 15px;
+}
+
+@media (max-width:700px) {
+    .seccion1, .seccion2, .seccion3, .seccion4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+
+@media(min-width:701px) and (max-width:1023px){  
+    .seccion1, .seccion2, .seccion3, .seccion4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width:1024px) { 
+    .seccion1, .seccion2, .seccion3, .seccion4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+}

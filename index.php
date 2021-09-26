@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="styles/estilosNav.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/seccion.css">
-    <link rel="stylesheet" href="styles/formularioContacto.css">
 
 </head>
 
@@ -68,26 +67,11 @@
 
 
         <div class="informacionServicios">
-            <section class="img_mantenimiento">
-                <img src="img/mantenimientoInicio.png" alt="Hombre Mantenimiento" height="250px" loading="lazy">
+            <section class="texto_servicio">
+                <h4> Conoce sobre nuestros servicios! </h4>
             </section>
-
-            <section class="inf_mantenimiento">
-                <h1> Mantenimiento </h1>
-                <p> TEXTO PENDIENTE. TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO
-                    PENDIENTE.TEXTO PENDIENTE. </p>
-                <a href="view/servicios.php" class="btn-formulario">Conoce mas </a>
-            </section>
-
-            <section class="img_electronica">
-                <img src="img/electronicaInicio.png" alt="Tarjeta Electronica" height="250px" loading="lazy">
-            </section>
-
-            <section class="inf_electronica">
-                <h1> Electronica </h1>
-                <p> TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE.TEXTO
-                    PENDIENTE.TEXTO PENDIENTE.TEXTO PENDIENTE. </p>
-                <a href="view/servicios.php" class="btn-formulario">Conoce mas </a>
+            <section class="boton_servicio">
+                <a href="view/servicios.php" class="btn-formulario"> Ver servicios </a>
             </section>
 
         </div>
